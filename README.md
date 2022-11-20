@@ -1,11 +1,14 @@
-This repository is a serial console utility to debug and access serial interfaces. The template for this application is HTerm, a fabulous application to debug serial interfaces. This repository aims to take this application into the 21st century.
+This repository is a serial console utility to debug and access serial interfaces. The template for this application is [HTerm](https://www.der-hammer.info/pages/terminal.html), a fabulous application to debug serial interfaces. This repository aims to take this application into the 21st century.
 
 ---
 
 ## TODO
 
-- Add transmit options
-- Add overlay if SerialPort WebApi is not supported.
+- Add transmit controls
+- Add status flags for the SerialPort
+- Add overlay if [SerialPort WebApi](https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API) is not supported.
+- Add copy and paste features
+- Add save to file feature
 
 ## Get started
 

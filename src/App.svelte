@@ -13,7 +13,7 @@
   import PortSettings from "./port/PortSettings.svelte";
 
   // Store
-  let bytes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 42, 101];
+  let bytes = [];
   export let portSettings: IPortSettings = {
     port: null,
     baudRate: 9600,
@@ -102,6 +102,10 @@
       labelText="Newline after ... ms receive pause"
       bind:value={newLineEveryNMsPause}
     />
+
+    <a href="https://github.com/basdl/jsterm" class="githublink"
+      >Go to github project</a
+    >
   </div>
   <div class="wordsView">
     <WordsView
@@ -129,5 +133,10 @@
   .wordsView {
     width: 80%;
     padding: 1rem;
+  }
+
+  .githublink {
+    position: fixed;
+    bottom: 2rem;
   }
 </style>
